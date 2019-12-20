@@ -1,0 +1,179 @@
+{
+    "programId":"13",
+	"programName":"13",
+    "pageResolution": [
+        {
+            "resolution": "1920X1080"
+        }
+    ], 
+	"playTimesFlag":"1",
+	"playTimes":"0",
+    "page": [
+        {
+            "name": "page1",
+            "pagTime": 10,
+            "areaList": {
+                "pageEle": [
+                    {
+                        "bgImg": "",
+                        "bgColor": "",
+                        "bgName": "",
+                        "pageTime": 10,
+                        "eqType": "q5"
+                    }
+                ], 
+                "mediaEle": [
+                    {
+                        "id": 4, 
+                        "type": 2, 
+                        "top": 0, 
+                        "left": 2, 
+                        "width": 1912, 
+                        "height": 64, 
+                        "zIndex": 5, 
+                        "siderType": "2", 
+                        "siderDirection": "0", 
+                        "pauseTime": "5", 
+                        "text": "请输入文字", 
+                        "fontSize": "48", 
+                        "fontWeight": "bold", 
+                        "textDecoration": "", 
+                        "fontStyle": "", 
+                        "textAlign": "", 
+                        "fontFamily": "Arial", 
+                        "fontColor": "#ff0000", 
+                        "lineHeight": "20", 
+                        "background": "", 
+                        "listType": "", 
+                        "textShow": "0", 
+                        "scrollSpeed": "1", 
+                        "isEdit": false, 
+                        "borderSW": 0, 
+                        "borderType": 1, 
+                        "borderEffect": 1, 
+                        "borderSpeed": 1, 
+                        "textGroup": [
+                            {
+                                "id": 0, 
+                                "name": "字幕", 
+                                "text": "邮件推送（Direct Mail）是一款简单高效的电子邮件发送服务，它构建在可靠稳定的阿里云基础之上，帮助用户快速、精准地实现事务邮件、通知邮件和批量邮件的发送。此外，在邮件推送服务的基础上，新增了短信推送功能。短信推送服务为提供三网合一短信通道，通过 API 接口调用，实现为用户发送短信验证码或短信通知。"
+                            }
+                        ]
+                    }, {
+                        "id": 5, 
+                        "type": 2, 
+                        "top": 256, 
+                        "left": 2, 
+                        "width": 1912, 
+                        "height": 64, 
+                        "zIndex": 5, 
+                        "siderType": "2", 
+                        "siderDirection": "0", 
+                        "pauseTime": "5", 
+                        "text": "请输入文字", 
+                        "fontSize": "48", 
+                        "fontWeight": "bold", 
+                        "textDecoration": "", 
+                        "fontStyle": "", 
+                        "textAlign": "", 
+                        "fontFamily": "Arial", 
+                        "fontColor": "#ff0000", 
+                        "lineHeight": "20", 
+                        "background": "", 
+                        "listType": "", 
+                        "textShow": "0", 
+                        "scrollSpeed": "3", 
+                        "isEdit": false, 
+                        "borderSW": 0, 
+                        "borderType": 1, 
+                        "borderEffect": 1, 
+                        "borderSpeed": 1, 
+                        "textGroup": [
+                            {
+                                "id": 0, 
+                                "name": "字幕", 
+                                "text": "邮件推送（Direct Mail）是一款简单高效的电子邮件发送服务，它构建在可靠稳定的阿里云基础之上，帮助用户快速、精准地实现事务邮件、通知邮件和批量邮件的发送。此外，在邮件推送服务的基础上，新增了短信推送功能。短信推送服务为提供三网合一短信通道，通过 API 接口调用，实现为用户发送短信验证码或短信通知。"
+                            }
+                        ]
+                    }, {
+                        "id": 2, 
+                        "type": 0, 
+                        "top": 0, 
+                        "left": 0, 
+                        "width": 1920, 
+                        "height": 1080, 
+                        "zIndex": 2, 
+                        "siderType": "0", 
+                        "pauseTime": 7, 
+                        "borderSW": 0, 
+                        "borderType": 1, 
+                        "borderEffect": 1, 
+                        "borderSpeed": 1, 
+                        "rotation": 0,
+                        "srcGroup": [
+                            {
+                                "name": "720p.mp4",
+                                "id": 123,  
+                                "size": 8400241,
+                                "time": 25,
+				                "src":"http://www.ledcloud.cn/resources/video/A_36_45/201901/e6a95142-90a3-4504-a036-a7ff66592674_1548152957665_copy.mp4",
+								"dateSW": 0,
+								"playTimes": 0,
+								"endDate": 0,
+								"startDate": 0 
+                            }, 
+							{
+                                "name": "2.mp4",
+                                "id": 123,  
+                                "size": 727442,
+                                "time": 10,
+				                "src":"http://www.ledcloud.cn/resources/video/A_17_359/201901/1a672b15-46f4-4cdb-a7df-095437806a85_1548301387547_copy.mp4",
+								"dateSW": 0,
+								"playTimes": 0,
+								"endDate": 0,
+								"startDate": 0 
+                            }
+                        ]
+                    }
+                ]
+            }
+        } 
+    ],	
+	"programPlan": [
+		{
+			"defaultPid": "",
+			"onlyCut": 0,
+			"program": [
+				{
+					"createDate": 1553492888000,
+					"date": [
+						{
+							"dateEnd": 1553961599000,
+							"dateStart": 1553788800000
+						}
+					],
+					"isDefault": 0,
+					"planWeekDay": [
+						1,
+						1,
+						1,
+						1,
+						1,
+						1,
+						1
+					],
+					"programId": "13",
+					"programName": "13",
+					"programType": 1,
+					"time": [
+						{
+							"timeEnd": "23:59:59",
+							"timeStart": "00:00:00"
+						} 
+					],
+					"updateDate": 1553493058000
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,222 @@
+{
+    "programId":"15",
+	"programName":"15",
+    "pageResolution": [
+        {
+            "resolution": "1920X1080"
+        }
+    ], 
+	"playTimesFlag":"1",
+	"playTimes":"0",
+    "page": [
+	    {
+            "name": "页面1", 
+            "pagTime": 35, 
+            "areaList": {
+                "pageEle": [
+                    {
+                        "bgImg": "", 
+                        "bgColor": "", 
+                        "bgName": "", 
+                        "pageTime": 10, 
+                        "eqType": "q5"
+                    }
+                ], 
+                "mediaEle": [  
+                    {
+                        "id": 2, 
+                        "type": 0, 
+                        "top": 0, 
+                        "left": 0, 
+                        "width": 1920, 
+                        "height": 1080, 
+                        "zIndex": 2, 
+                        "siderType": "0", 
+                        "pauseTime": 7, 
+                        "borderSW": 0, 
+                        "borderType": 1, 
+                        "borderEffect": 1, 
+                        "borderSpeed": 1, 
+                        "rotation": 0,
+                        "srcGroup": [
+                            {
+                                "name": "720p.mp4",
+                                "id": 123,  
+                                "size": 8400241,
+                                "time": 25,
+				                "src":"http://www.ledcloud.cn/resources/video/A_418/201904/d2c1308a-9abf-4561-a91a-51a999f978ed_1555990809155_copy.mp4",
+								"dateSW": 0,
+								"playTimes": 0,
+								"endDate": 0,
+								"startDate": 0 
+                            }, 
+							{
+                                "name": "2.mp4",
+                                "id": 123,  
+                                "size": 727442,
+                                "time": 10,
+				                "src":"http://www.ledcloud.cn/resources/video/A_418/201904/01df0a07-94da-4ee2-aa01-5414cb59d651_1555990809132_copy.mp4",
+								"dateSW": 0,
+								"playTimes": 0,
+								"endDate": 0,
+								"startDate": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "页面1", 
+            "pagTime": 30, 
+            "areaList": {
+                "pageEle": [
+                    {
+                        "bgImg": "", 
+                        "bgColor": "", 
+                        "bgName": "", 
+                        "pageTime": 10, 
+                        "eqType": "q5"
+                    }
+                ], 
+                "mediaEle": [  
+                    {
+						"id": 1,
+						"type": 5,
+						"top": 0,
+						"left": 0,
+						"width": 1920,
+						"height": 1080,
+						"zIndex": 1,
+						"siderType": "6",
+						"pauseTime": 5,
+						"borderSW": 0,
+						"borderType": 1,
+						"borderEffect": 1,
+						"borderSpeed": 1,
+						"srcGroup": [
+							{
+								"name": "rmvb__2_.rmvb",
+								"id": 1130,
+								"src": "http://www.ledcloud.cn/resources/video/A_418/201904/7e3b6e44-86ed-4a3b-80bf-25b8b97eff08_1555990809158_copy.mp4",
+								"size": 3680586,
+								"time": 25,
+								"type": 0,
+								"playTimes": 0,
+								"dateSW": 0,
+								"endDate": 0,
+								"startDate": 0
+							},
+							{
+								"name": "12.jpg",
+								"id": 1124,
+								"src": "http://www.ledcloud.cn/resources/picture/A_22/201901/aca21b1b-41cd-443c-b4cf-2320e7fd89b7_1548224619501.jpg",
+								"size": 1302955,
+								"type": 1,
+								"playTimes": 0,
+								"dateSW": 0,
+								"endDate": 0,
+								"startDate": 0,
+								"pauseTime": 5
+							}
+						],
+						"rotation": 0
+					},
+					{
+						"id": 2,
+						"type": 23,
+						"top": 0,
+						"left": 1518,
+						"width": 384,
+						"height": 216,
+						"zIndex": 2,
+						"dateFontSize": 48,
+						"fontColor": "#FF0000",
+						"reachTime": 1556640000000,
+						"dayShow": 0,
+						"hourShow": 0,
+						"minuteShow": 0,
+						"secondsShow": 0,
+						"boldSet": 1,
+						"leftRCenterSet": "1",
+						"countdownFormat": 0,
+						"borderSW": "0",
+						"borderType": 1,
+						"borderEffect": 1,
+						"borderSpeed": 1
+					}
+                ]
+            }
+        },
+	    {
+            "name": "页面3", 
+            "pagTime": 60, 
+            "areaList": {
+                "pageEle": [
+                    {
+                        "bgImg": "", 
+                        "bgColor": "", 
+                        "bgName": "", 
+                        "pageTime": 60, 
+                        "eqType": "q5"
+                    }
+                ], 
+                "mediaEle": [  
+                    {
+						"id": 1,
+						"type": 9,
+						"top": 0,
+						"left": 0,
+						"width": 1920,
+						"height": 1080,
+						"zIndex": 1,
+						"refreshTime": "0",
+						"refreshType": "0",
+						"href": "http://www.168led.com",
+						"borderSW": 0,
+						"borderType": 1,
+						"borderEffect": 1,
+						"borderSpeed": 1
+					}
+                ]
+            }
+        }
+    ],
+	"programPlan": [
+		{
+			"defaultPid": "",
+			"onlyCut": 0,
+			"program": [
+				{
+					"createDate": 1557244800000,
+					"date": [
+						{
+							"dateEnd": 1559923200000,
+							"dateStart": 1557244800000
+						}
+					],
+					"isDefault": 0,
+					"planWeekDay": [
+						1,
+						1,
+						1,
+						1,
+						1,
+						1,
+						1
+					],
+					"programId": "15",
+					"programName": "15",
+					"programType": 1,
+					"time": [
+						{
+							"timeEnd": "20:59:59",
+							"timeStart": "00:00:00"
+						} 
+					],
+					"updateDate": 1557244800000
+				}
+			]
+		}
+	]
+}

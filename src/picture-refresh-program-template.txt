@@ -1,0 +1,80 @@
+{
+    "programId":"16",
+	"programName":"16",	
+	"pageResolution": [
+		{
+			"resolution": "1920X1080"
+		}
+	],
+	"playTimesFlag":"1",
+	"playTimes":"0",
+	"page": [
+		{
+			"name": "page1",
+			"pagTime": 10,
+			"areaList": {
+				"pageEle": [
+					{
+						"bgImg": "",
+						"bgColor": "",
+						"bgName": "",
+						"pageTime": 10,
+						"eqType": "q5"
+					}
+				],
+				"mediaEle": [
+					{
+						"id": 1,
+						"type": 16,
+						"top": 0,
+						"left": 0,
+						"width": 256,
+						"height": 256,
+						"zIndex": 1,
+						"bgName": "0ad16394-2538-4080-993d-6f6c7e51.bmp",
+						"bgImg": "",
+						"dataUrl": "",
+						"refreshTime": 10
+					}
+				]
+			}
+		}
+	],	
+	"programPlan": [
+		{
+			"defaultPid": "",
+			"onlyCut": 0,
+			"program": [
+				{
+					"createDate": 1557244800000,
+					"date": [
+						{
+							"dateEnd": 1559923200000,
+							"dateStart": 1557244800000
+						}
+					],
+					"isDefault": 0,
+					"planWeekDay": [
+						1,
+						1,
+						1,
+						1,
+						1,
+						1,
+						1
+					],
+					"programId": "16",
+					"programName": "16",
+					"programType": 1,
+					"time": [
+						{
+							"timeEnd": "21:59:59",
+							"timeStart": "00:00:00"
+						} 
+					],
+					"updateDate": 1557244800000
+				}
+			]
+		}
+	]
+}

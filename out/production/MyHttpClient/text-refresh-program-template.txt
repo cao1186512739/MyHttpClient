@@ -1,0 +1,192 @@
+{  
+    "programId":"17",
+	"programName":"17",
+	"pageResolution": [{
+		"resolution": "1920X1080"
+	}],
+	"playTimesFlag":"1",
+	"playTimes":"0",
+	"page": [{
+		"name": "页面1",
+		"pagTime": 30,
+		"areaList": {
+			"pageEle": [{
+				"bgImg": "",
+				"bgColor": "",
+				"bgName": "",
+				"pageTime": 30,
+				"eqType": "q5"
+			}],
+			"mediaEle": [{
+				"id": 1,
+				"type": 2,
+				"top": 0,
+				"left": 0,
+				"width": 240,
+				"height": 40,
+				"zIndex": 1,
+				"siderType": "0",
+				"siderDirection": "0",
+				"pauseTime": "10",
+				"text": "请输入文字",
+				"fontSize": "30",
+				"fontWeight": "bold",
+				"textDecoration": "",
+				"fontStyle": "",
+				"textAlign": "center",
+				"fontFamily": "Arial",
+				"fontColor": "#ff0000",
+				"lineHeight": "20",
+				"background": "",
+				"listType": "",
+				"textShow": "1",
+				"scrollSpeed": "0",
+				"isEdit": false,
+				"borderSW": 0,
+				"borderType": 1,
+				"borderEffect": 1,
+				"borderSpeed": 1,
+				"textGroup": [{
+					"id": 1,
+					"name": "字幕",
+					"text": "公告标题"
+				}]
+			},{
+				"id": 2,
+				"type": 2,
+				"top": 40,
+				"left": 0,
+				"width": 240,
+				"height": 120,
+				"zIndex": 1,
+				"siderType": "0",
+				"siderDirection": "0",
+				"pauseTime": "10",
+				"text": "请输入文字",
+				"fontSize": "18",
+				"fontWeight": "bold",
+				"textDecoration": "",
+				"fontStyle": "",
+				"textAlign": "",
+				"fontFamily": "Arial",
+				"fontColor": "#ff0000",
+				"lineHeight": "20",
+				"background": "",
+				"listType": "",
+				"textShow": "1",
+				"scrollSpeed": "0",
+				"isEdit": false,
+				"borderSW": 0,
+				"borderType": 1,
+				"borderEffect": 1,
+				"borderSpeed": 1,
+				"textGroup": [{
+					"id": 2,
+					"name": "字幕",
+					"text":"公告内容"
+				}]
+			},{
+				"id": 3,
+				"type": 2,
+				"top": 160,
+				"left": 0,
+				"width": 240,
+				"height": 5,
+				"zIndex": 1,
+				"siderType": "0",
+				"siderDirection": "0",
+				"pauseTime": "30",
+				"text": "请输入文字",
+				"fontSize": "3",
+				"fontWeight": "bold",
+				"textDecoration": "",
+				"fontStyle": "",
+				"textAlign": "center",
+				"fontFamily": "Arial",
+				"fontColor": "#ff0000",
+				"lineHeight": "20",
+				"background": "",
+				"listType": "",
+				"textShow": "0",
+				"scrollSpeed": "0",
+				"isEdit": false,
+				"borderSW": 0,
+				"borderType": 1,
+				"borderEffect": 1,
+				"borderSpeed": 1,
+				"textGroup": [{
+					"id": 3,
+					"name": "字幕",
+					"text":"____________________________________________________________________________________________________"
+				}]
+			},{
+				"srcGroup": [{
+					"id": 4,
+					"dataVal": 5,
+					"top": 0,
+					"left": 0,
+					"width": 240,
+					"height": 35
+				},{
+					"id": 5,
+					"dataVal": 6,
+					"top": 12,
+					"left": 0,
+					"width": 240,
+					"height": 35
+				}],
+				"id": 6,
+				"type": 15,
+				"top": 165,
+				"left": 0,
+				"width": 240,
+				"height": 35,
+				"zIndex": 1,
+				"fontFamily": "Arial",
+				"fontColor": "#ff0000",
+				"fontSize": 12,
+				"bgImg": "",
+				"bgName": "",
+				"dataUrl": "",
+				"refreshTime": 10
+			}]
+		}
+	}],	
+	"programPlan": [
+		{
+			"defaultPid": "",
+			"onlyCut": 0,
+			"program": [
+				{
+					"createDate": 1557244800000,
+					"date": [
+						{
+							"dateEnd": 1559923200000,
+							"dateStart": 1557244800000
+						}
+					],
+					"isDefault": 0,
+					"planWeekDay": [
+						1,
+						1,
+						1,
+						1,
+						1,
+						1,
+						1
+					],
+					"programId": "17",
+					"programName": "17",
+					"programType": 1,
+					"time": [
+						{
+							"timeEnd": "22:59:59",
+							"timeStart": "00:00:00"
+						} 
+					],
+					"updateDate": 1557244800000
+				}
+			]
+		}
+	]
+}

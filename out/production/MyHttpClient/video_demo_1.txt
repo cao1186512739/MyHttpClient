@@ -1,0 +1,107 @@
+{
+    "programId":"11",
+	"programName":"11",
+    "pageResolution": [
+        {
+            "resolution": "1920X1080"
+        }
+    ], 
+	"playTimesFlag":"1",
+	"playTimes":"0",
+    "page": [
+        {
+            "name": "页面1", 
+            "pagTime": 10, 
+            "areaList": {
+                "pageEle": [
+                    {
+                        "bgImg": "", 
+                        "bgColor": "", 
+                        "bgName": "", 
+                        "pageTime": 10, 
+                        "eqType": "q5"
+                    }
+                ], 
+                "mediaEle": [  
+                    {
+                        "id": 2, 
+                        "type": 0, 
+                        "top": 0, 
+                        "left": 0, 
+                        "width": 1920, 
+                        "height": 1080, 
+                        "zIndex": 2, 
+                        "siderType": "0", 
+                        "pauseTime": 7, 
+                        "borderSW": 0, 
+                        "borderType": 1, 
+                        "borderEffect": 1, 
+                        "borderSpeed": 1, 
+                        "rotation": 0,
+                        "srcGroup": [
+                            {
+                                "name": "720p.mp4",
+                                "id": 123,  
+                                "size": 8400241,
+                                "time": 25,
+				                "src":"http://www.ledcloud.cn/resources/video/A_22/201904/4d966a3d-5be3-489a-8065-65d105bbc621_1556241964687_copy.mp4",
+								"dateSW": 0,
+								"playTimes": 0, 
+								"endDate": 0,
+								"startDate": 0 
+                            }, 
+							{
+                                "name": "2.mp4",
+                                "id": 123,  
+                                "size": 727442,
+                                "time": 10,
+				                "src":"http://www.ledcloud.cn/resources/video/A_280/201904/5d429c8a-2b55-4ae1-a5c2-207658040146_1556178819479_copy.mp4",
+								"dateSW": 0,
+								"playTimes": 0,
+								"endDate": 0,
+								"startDate": 0 
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ],	
+	"programPlan": [
+		{
+			"defaultPid": "",
+			"onlyCut": 0,
+			"program": [
+				{
+					"createDate": 1557244800000,
+					"date": [
+						{
+							"dateEnd": 1559923200000,
+							"dateStart": 1557244800000
+						}
+					],
+					"isDefault": 0,
+					"planWeekDay": [
+						1,
+						1,
+						1,
+						1,
+						1,
+						1,
+						1
+					],
+					"programId": "11",
+					"programName": "11",
+					"programType": 1,
+					"time": [
+						{
+							"timeEnd": "22:59:59",
+							"timeStart": "00:00:00"
+						} 
+					],
+					"updateDate": 1557244800000
+				}
+			]
+		}
+	]
+}

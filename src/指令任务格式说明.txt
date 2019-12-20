@@ -1,0 +1,99 @@
+type:任务类型为数字   content：任务内容，为JSON字符串
+1.开屏、关屏和重启定时任务    time：为时间（格式是 小时：分钟）    isSwitchFlag值为 1：表示定时有效     0：表示定时无效
+2.升级任务    version:版本号    downloadUrl:文件路径   type:设备型号  md5:文件md5值   period:定时升级时间  startTime开始时间  endTime结束时间
+3.调节音量和调节亮度    value无定时的默认值         period里面的：value定时值，startTime开始时间  endTime结束时间    isSwitchFlag值为 1：表示定时有效     0：表示定时无效
+
+*******设备开屏**********
+"type":10
+"content":"[{"time":"04:00","isSwitchFlag":"1"},{"time":"06:00","isSwitchFlag":"1"},{"time":"15:30","isSwitchFlag":"1"}]"  //定时开屏 
+或者
+"type":10
+"content":""  //立即开屏
+
+*******设备关屏**********
+"type":40
+"content":"[{"time":"10:10","isSwitchFlag":"0"},{"time":"00:00","isSwitchFlag":"0"},{"time":"00:00","isSwitchFlag":"0"}]"  //定时关屏
+或者
+"type":40
+"content":""  //立即关屏
+
+*******设备重启**********
+"type":50
+"content":"[{"time":"17:14","isSwitchFlag":"1"},{"time":"","isSwitchFlag":"0"},{"time":"","isSwitchFlag":"0"}]"  //定时重启
+或者
+"type":50
+"content":""  //立即重启
+
+
+*******截屏**********
+"type":110
+"content":""   //内容为空
+
+*******系统升级**********
+"type":60
+"content":"{"version":"1.26","downloadUrl":"version\\update.zip","type":"X3T","md5":"2f4a6e75f87b614f880f55646b4adcb7","period":[]}"   //立即升级
+或者
+"type":60
+"content":"{"version":"1.26","downloadUrl":"version\\update.zip","type":"X3T","md5":"2f4a6e75f87b614f880f55646b4adcb7","period":[{"startTime": "09:30","endTime": "12:30"},{"startTime": "09:30","endTime": "12:30"},{"startTime": "09:30","endTime": "12:30"}]}"   //定时升级
+
+*******应用升级**********
+"type":70
+"content":"{"version":"testversion","downloadUrl":"http:\\192.168.1.102:8080\\resources\\version\\app\\x3Player_q5_4.0.3.apk","type":"Q5","md5":"A2F3BBBEC556AD3BF30218E99E07A30C","period":[]}"   //立即升级
+或者
+"type":70
+"content":"{"version":"testversion","downloadUrl":"http:\\192.168.1.102:8080\\resources\\version\\app\\x3Player_q5_4.0.3.apk","type":"Q5","md5":"A2F3BBBEC556AD3BF30218E99E07A30C","period":[{"startTime": "09:30","endTime": "12:30"},{"startTime": "09:30","endTime": "12:30"},{"startTime": "09:30","endTime": "12:30"}]}"   //定时升级
+
+*******Model文件升级**********
+"type":65
+"content":"{"version":"2.0","downloadUrl":"version\\model.zip","type":"Q5","md5":"0af2ccf73b1465b954ebe2d24ac0ad00","period":[]}"   //立即升级
+或者
+"type":65
+"content":"{"version":"2.0","downloadUrl":"version\\model.zip","type":"Q5","md5":"0af2ccf73b1465b954ebe2d24ac0ad00","period":[{"startTime": "09:30","endTime": "12:30"},{"startTime": "09:30","endTime": "12:30"},{"startTime": "09:30","endTime": "12:30"}]}"   //定时升级
+
+*******固件升级**********
+"type":230
+"content":"{"version":"880106","downloadUrl":"version\\X3T_Z1_880106_201805151440.ups","type":"X3T","md5":"d76f3e72e0a48c0903bfc25c07bbc85e","period":[]}"   //立即升级
+或者
+"type":230
+"content":"{"version":"880106","downloadUrl":"version\\X3T_Z1_880106_201805151440.ups","type":"X3T","md5":"d76f3e72e0a48c0903bfc25c07bbc85e","period":[{"startTime": "09:30","endTime": "12:30"},{"startTime": "09:30","endTime": "12:30"},{"startTime": "09:30","endTime": "12:30"}]}"   //定时升级
+
+*******同步时钟**********
+"type":80
+"content":""   //内容为空
+
+*******开始播放**********
+"type":180
+"content":""    //内容为空
+
+*******紧急停播**********
+"type":190
+"content":""    //内容为空
+
+*******调节音量**********
+"type":90
+"content":"{"value":80,"period":[]}"   //立即调节音量
+或者
+"type":100
+"content":"{"value":10,"period":[{"value":100,"startTime":"10:10","endTime":"10:15","isSwitchFlag":"1"},{"value":10,"startTime":"","endTime":"","isSwitchFlag":"0"},{"value":10,"startTime":"","endTime":"","isSwitchFlag":"0"}]}"    //定时调节音量
+
+*******调节亮度**********
+"type":100
+"content":"{"value":80,"period":[]}"    //立即调节亮度
+或者
+"type":100
+"content":"{"value":10,"period":[{"value":100,"startTime":"10:10","endTime":"10:15","isSwitchFlag":"1"},{"value":10,"startTime":"","endTime":"","isSwitchFlag":"0"},{"value":10,"startTime":"","endTime":"","isSwitchFlag":"0"}]}"    //定时调节亮度
+
+*******多功能卡控制**********
+"type":290
+{"powerType":"0","contents":{"powerImmeStyle":"0","contentlist":[]}}//立即开启
+或
+{"powerType":"0","contents":{"powerImmeStyle":"1","contentlist":[]}}//立即停止
+或
+{"powerType":"1","contents":{"powerImmeStyle":"0","contentlist":[{"startTime":"17:26","endTime":"17:30"}]}}//定时控制
+
+*******FPGA升级**********
+"type":230
+{"version":"4003","downloadUrl":"http://192.168.1.117:8080/resources/version/fpga/update.ups","type":"Q5","md5":"2e88e0c4447d9791b93a569cf5a72bd4","period":[]}
+
+
+

@@ -1,0 +1,26 @@
+{
+	"dataInfo": [
+		{
+			"id": "5",
+			"beforeIcon": "",
+			"name": "",
+			"nameColor": "",
+			"nameFontSize": "",
+			"totalNum": "当天入场人数:160人",
+			"totalNumFontSize": "",
+			"totalNumColor": "",
+			"afterIcon": ""
+		},
+		{
+			"id": "6",
+			"beforeIcon": "",
+			"name": "",
+			"nameColor": "",
+			"nameFontSize": "",
+			"totalNum": "当前在场人数:90人",
+			"totalNumFontSize": "",
+			"totalNumColor": "",
+			"afterIcon": ""
+		}
+	]
+}

@@ -1,0 +1,8 @@
+1、video_demo_1.txt:该文件只包含视频区域的节目用例
+2、picture_demo_2.txt：该文件只包含图片区域的节目用例
+3、textAndvideo_demo_3.txt：该文件只包含字幕与视频区域的节目用例
+4、videoAndpicture_demo_4.txt: 该文件只包含视频与图片区域的节目用例
+5、html_demo_5.txt：该文件只包含网页与音频区域的节目用例
+6、picture-refresh-program-template.txt：该文件只包含图片局部刷新区域的节目用例
+7、text-refresh-program-template.txt：该文件只包含文本局部刷新区域的节目用例
+8、text-refresh-data-template.txt：该文件是只包含文本局部刷新区域的测试数据用例
